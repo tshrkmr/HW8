@@ -17,9 +17,9 @@
 ![HW8_DC_MySQL_3](figures/DC_MySQL_3.png)
 ###DOCKER COMPOSE - APP SERVER AND MYSQL
 - [5 pts] Your updated docker-compose.yml file containing the application server, built from your local Dockerfile, and the existing MySQL configuration. Please provide a link to this file rather than a screen capture.
-[docker-compose.yml](spring-petclinic/docker-compose.yml)
+[docker-compose.yml](https://github.com/tshrkmr/HW8/blob/master/spring-petclinic/docker-compose.yml)
 - [5 pts] Your updated application-mysql.properties file containing the URL change for the database server. Please provide a link to this file rather than a screen capture.
-[application-mysql.properties](spring-petclinic/src/main/resources/application-mysql.properties)
+[application-mysql.properties](https://github.com/tshrkmr/HW8/blob/master/spring-petclinic/src/main/resources/application-mysql.properties)
 - [5 pts] The output from the docker-compose up command.
 ![HW8_DC_AppServer_MySQL_3_1](figures/DC_AppServer_MySQL_3_1.png)
 ![HW8_DC_AppServer_MySQL_3_2](figures/DC_AppServer_MySQL_3_2.png)
