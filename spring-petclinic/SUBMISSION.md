@@ -1,32 +1,27 @@
+##Tushar Kumar
 
-Tushar Kumar
-
-- [5 pts]Your GitHub account showing that is has been forked from the depaulcdm/spring- petclinic repository. This doesn’t actually need an image – I can see it from your repository.
-
-
-- [5 pts]Your GitHub Actions dashboard showing a successful first build.
-- ![HW5_2](figures/HW5_2.png)
-
-- [5 pts]Your GitHub repository with the readme.md file selected showing the code that you changed to update the badge.
-- ![HW5_3](figures/HW5_3.png)
-
-- [5 pts]Your GitHub repository with the readme.md file selected showing the build success status after you’ve updated the badge markdown.
-- ![HW5_4](figures/HW5_4.png)
-
-- [5 pts]The section of the POM file showing the coordinates after you’ve commented them out.
-- ![HW5_5](figures/HW5_5.png)
-
-- [5 pts]Your GitHub Actions dashboard showing the unsuccessful build after the breaking change.
-- ![HW5_6](figures/HW5_6.png)
-
-- [5 pts]Your GitHub repository with the readme.md file selected showing the build failed status after the GitHub workflow fails.
-- ![HW5_7](figures/HW5_7.png)
-
-- [5 pts]The section of the POM file showing the coordinates after you’ve fixed them.
-- ![HW5_8](figures/HW5_8.png)
-
-- [5 pts]Your GitHub Actions dashboard showing the successful build after the breaking change has been fixed.
-- ![HW5_9](figures/HW5_9.png)
-
-- [5 pts]Your GitHub repository with the readme.md file selected showing the build success status after the GitHub workflow has recovered.
-- ![HW5_10](figures/HW5_10.png)
+###DOCKER
+- [5 pts] Your dockerfile. Please provide a link to this file rather than a screen capture.
+[Dockerfile](spring-petclinic/Dockerfile)
+- [5 pts] Your running docker instance as shown by a ps command.
+![HW8_Docker_2](figures/Docker_2.png)
+- [5 pts] Your browser accessing the main page of the website from your local container.
+![HW8_Docker_3](figures/Docker_3.png)
+###DOCKER COMPOSE - MYSQL ONLY
+- [5 pts] The output from the docker-compose up command.
+![HW8_DC_MySQL_1_1](figures/DC_MySQL_1_1.png)
+![HW8_DC_MySQL_1_2](figures/DC_MySQL_1_2.png)
+- [5 pts] Your browser accessing the “Veterinarians” page of the website from your local container when you run the application from the host system.
+![HW8_DC_MySQL_2](figures/DC_MySQL_2.png)
+- [5 pts] A section of the stack trace generated when you attempt to run the application container that has been updated to use MySQL. 
+![HW8_DC_MySQL_3](figures/DC_MySQL_3.png)
+###DOCKER COMPOSE - APP SERVER AND MYSQL
+- [5 pts] Your updated docker-compose.yml file containing the application server, built from your local Dockerfile, and the existing MySQL configuration. Please provide a link to this file rather than a screen capture.
+[docker-compose.yml](spring-petclinic/docker-compose.yml)
+- [5 pts] Your updated application-mysql.properties file containing the URL change for the database server. Please provide a link to this file rather than a screen capture.
+[application-mysql.properties](spring-petclinic/src/main/resources/application-mysql.properties)
+- [5 pts] The output from the docker-compose up command.
+![HW8_DC_AppServer_MySQL_3_1](figures/DC_AppServer_MySQL_3_1.png)
+![HW8_DC_AppServer_MySQL_3_2](figures/DC_AppServer_MySQL_3_2.png)
+- [5 pts] Your browser accessing the “Veterinarians” page of the website from your local container.
+![HW8_DC_AppServer_MySQL_4](figures/DC_AppServer_MySQL_4.png)
